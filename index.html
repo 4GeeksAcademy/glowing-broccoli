@@ -25,15 +25,24 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                         <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
         <div class="modal-body">
-          ...
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Add your caption here</textarea>
+              </div>
+              <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-camera"></i>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <i class="fa-solid fa-location-dot"></i>
+                </button>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-success">Publish</button>
         </div>
       </div>
     </div>
@@ -68,23 +77,63 @@
       </ul>
       <div class="tab-content" id="myTabContent">
       
-        <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
-          <div class="row">
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i0.wp.com/chicagoreader.com/wp-content/uploads/2021/08/batushka-3.jpg?fit=900%2C653&ssl=1" class="img-fluid w-100" alt=""></div>
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://preview.redd.it/gdyejnw8dsa91.jpg?width=1024&format=pjpg&auto=webp&s=35d1af384ad44ebe497addfecd045ffc0f212f14" class="img-fluid w-100" alt=""></div>
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Batushka_2017-08-10_01-24-19.jpg/1200px-Batushka_2017-08-10_01-24-19.jpg" class="img-fluid w-100" alt=""></div>
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://i0.wp.com/chicagoreader.com/wp-content/uploads/2021/08/batushka-3.jpg?fit=900%2C653&ssl=1" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://preview.redd.it/gdyejnw8dsa91.jpg?width=1024&format=pjpg&auto=webp&s=35d1af384ad44ebe497addfecd045ffc0f212f14" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Batushka_2017-08-10_01-24-19.jpg/1200px-Batushka_2017-08-10_01-24-19.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://i.scdn.co/image/ab6761610000e5ebe3c73be8fc21207a1acd5f44" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2019/03/07/yq-watain-07032010_2x_2x.jpg?VersionId=bDoEaNOky66n4c0Q9YxjXYzZ2LAj1WBf" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Watain_Fall_of_Summer_Torcy_06092014_004.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://s1.ticketm.net/dam/a/fb5/6ba5e604-ee5a-40fc-be91-55687bfa0fb5_RETINA_PORTRAIT_3_2.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://www.revolvermag.com/wp-content/uploads/2024/08/13/SLIPKNOT_MSD4666_thetinfolilbiter-CROP-1280x720.jpg?t=1723570070" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-1">
+                <div class="ratio ratio-1x1">
+                  <img src="https://cms.kerrang.com/images/Slipknot1.jpg" class="img-fluid w-100 object-fit-cover" alt="">
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="row">
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://i.scdn.co/image/ab6761610000e5ebe3c73be8fc21207a1acd5f44" class="img-fluid w-100" alt=""></div>
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2019/03/07/yq-watain-07032010_2x_2x.jpg?VersionId=bDoEaNOky66n4c0Q9YxjXYzZ2LAj1WBf" class="img-fluid w-100" alt=""></div>
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Watain_Fall_of_Summer_Torcy_06092014_004.jpg" class="img-fluid w-100" alt=""></div>
-          </div>
-          <div class="row">
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://s1.ticketm.net/dam/a/fb5/6ba5e604-ee5a-40fc-be91-55687bfa0fb5_RETINA_PORTRAIT_3_2.jpg" class="img-fluid w-100" alt=""></div>
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://www.revolvermag.com/wp-content/uploads/2024/08/13/SLIPKNOT_MSD4666_thetinfolilbiter-CROP-1280x720.jpg?t=1723570070" class="img-fluid w-100" alt=""></div>
-              <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://cms.kerrang.com/images/Slipknot1.jpg" class="img-fluid w-100" alt=""></div>
-          </div>
-      </div>
+          
+          
       <!-- 1 photo per row grid -->
       <div class="tab-pane fade overflow-hidden container" id="profile" role="tabpanel" aria-labelledby="profile-tab">
         <div class="row my-4">
